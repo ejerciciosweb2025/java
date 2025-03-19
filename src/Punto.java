@@ -15,4 +15,7 @@ public class Punto {
         this.x = p.x;
         this.y = p.y;
     }
+    void mostrarPuntos(){
+        System.out.println("Punto x: "+this.x +" " +"\nPunto y: "+this.y);
+    }
 }
