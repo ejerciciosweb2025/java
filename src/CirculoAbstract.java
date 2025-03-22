@@ -1,6 +1,6 @@
 public class CirculoAbstract extends Figura {
-    private double radio;
-    private Punto centro;
+    double radio;
+    Punto centro;
 
     @Override
     public double area() {
