@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class AprenderJava {
@@ -219,7 +220,15 @@ public class AprenderJava {
         var variable = "Hola";
         //((Object)myInteger).getClass().getSimpleName());
         System.out.println((( Object)variable).getClass().getSimpleName());
+        double numerit = 3.56;
+        System.out.println("Introduce un valor: ");
+        Scanner scanner = new Scanner(System.in);
+        scanner.useLocale(Locale.US);
+        double leerFrase = scanner.nextDouble();
 
+        System.out.println("Valor"+leerFrase);
 
+        Persona persona = new Persona("Pepe",64,"111111111");
+        System.out.println(persona);
     }
 }
