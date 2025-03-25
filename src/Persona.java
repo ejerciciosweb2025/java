@@ -43,4 +43,17 @@ public class Persona {
     public String toString(){
         return this.nombre+" con dni: "+this.dni+" tiene: "+this.edad+" años";
     }
+
+    public static class Main {
+        public static void main(String[] args) {
+            Punto p1 = new Punto();
+            Punto p2 = new Punto(3.4,-7.9);
+            Punto p3 = new Punto(p2);
+
+            p1.mostrarPuntos();
+            p2.mostrarPuntos();
+            p3.mostrarPuntos();
+        }
+        OrientacionObjetos02.Circulo circulo = new OrientacionObjetos02.Circulo(2.5,0,0);
+    }
 }
