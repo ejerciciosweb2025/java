@@ -1,6 +1,6 @@
 public class Punto {
-    private double x;
-    private double y;
+    double x;
+    double y;
     //Constructor por defecto
     Punto(){
         this.x = 0.0;
